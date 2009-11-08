@@ -37,6 +37,8 @@ $ twitter_2_mixi_voice -t <em>twitter_id</em> -T <em>twitter_password</em> -m <e
 
 == INSTALL:
 
+gem install twitter2mixivoice
+
 
 == Copyright:
 

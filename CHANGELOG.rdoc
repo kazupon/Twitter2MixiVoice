@@ -2,6 +2,17 @@
 
 == 2009-11-08 kawakazu80@gmail.com
 
+	* 0.1.1
+	packed gem.
+	add Twitter2MixiVoice.gemspec file.
+	change 'twitter_2_mixi_voice' file into 'twitter2mixivoice' file.
+	
+	*	README.rdoc
+	add description of 'INSTALL:' chapter.
+	
+
+== 2009-11-08 kawakazu80@gmail.com
+
 	* 0.1.0
 	first release.
 
