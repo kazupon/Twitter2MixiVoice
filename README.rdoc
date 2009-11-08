@@ -25,7 +25,7 @@ The following options are required.
 
 Example:
 
-$ twitter_2_mixi_voice -t <em>twitter_id</em> -T <em>twitter_password</em> -m <em>user@hoge.com</em> -M <em>mixi_password</em>
+$ twitter2mixivoice -t <em>twitter_id</em> -T <em>twitter_password</em> -m <em>user@hoge.com</em> -M <em>mixi_password</em>
 
 
 == REQUIREMENTS:
@@ -36,6 +36,8 @@ $ twitter_2_mixi_voice -t <em>twitter_id</em> -T <em>twitter_password</em> -m <e
 
 
 == INSTALL:
+
+gem install twitter2mixivoice
 
 
 == Copyright:

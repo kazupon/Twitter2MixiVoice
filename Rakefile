@@ -4,8 +4,8 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "Twitter2MixiVoice"
-    gem.summary = %Q{Twitter2MixiVoice}
+    gem.name = "twitter2mixivoice"
+    gem.summary = %Q{twitter2mixivoice}
     gem.description = %Q{Post twitter tweet to mixi voice.}
     gem.email = "kawakazu80@gmail.com"
     gem.homepage = "http://github.com/kazupon/Twitter2MixiVoice"
