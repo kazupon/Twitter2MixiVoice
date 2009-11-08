@@ -12,20 +12,5 @@ $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), "..", "lib"))
 
 require "twitter_2_mixi_voice"
 
-
-#
-# entry point
-#
-
-if __FILE__ == $0
-  
-  begin
-    # run application.
-    Twitter2MixiVoice::Application.run(ARGV)
-  rescue Exception => e
-    $stderr.puts e.to_s
-  end
-  
-end
-
-__END__
+# run application.
+Twitter2MixiVoice::Application.run(ARGV)

@@ -1,5 +1,14 @@
 = ChangeLog
 
+== 2009-11-09 kazuya kawaguhci <kawakazu80@gmail.com>
+
+	* 0.1.2
+	fixed load error.
+	
+	* bin/twitter2mixivoice:
+	fixed called 'Twitter2MixiVoice::Application.run'
+
+
 == 2009-11-08 kawakazu80@gmail.com
 
 	* 0.1.1
@@ -7,7 +16,7 @@
 	add Twitter2MixiVoice.gemspec file.
 	change 'twitter_2_mixi_voice' file into 'twitter2mixivoice' file.
 	
-	*	README.rdoc
+	*	README.rdoc:
 	add description of 'INSTALL:' chapter.
 	
 
