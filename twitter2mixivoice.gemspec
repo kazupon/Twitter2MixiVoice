@@ -5,15 +5,15 @@
 
 Gem::Specification.new do |s|
   s.name = %q{twitter2mixivoice}
-  s.version = "0.1.0"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["kazuya kawaguchi"]
-  s.date = %q{2009-11-08}
-  s.default_executable = %q{twitter_2_mixi_voice}
+  s.date = %q{2009-11-09}
+  s.default_executable = %q{twitter2mixivoice}
   s.description = %q{Post twitter tweet to mixi voice.}
   s.email = %q{kawakazu80@gmail.com}
-  s.executables = ["twitter_2_mixi_voice"]
+  s.executables = ["twitter2mixivoice"]
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "bin/twitter_2_mixi_voice",
+     "bin/twitter2mixivoice",
      "lib/application.rb",
      "lib/mixi.rb",
      "lib/options.rb",
@@ -38,7 +38,8 @@ Gem::Specification.new do |s|
      "test/test_options.rb",
      "test/test_tweet.rb",
      "test/test_twitter_2_mixi_voice.rb",
-     "test/test_twitter_client.rb"
+     "test/test_twitter_client.rb",
+     "twitter2mixivoice.gemspec"
   ]
   s.homepage = %q{http://github.com/kazupon/Twitter2MixiVoice}
   s.rdoc_options = ["--charset=UTF-8"]
