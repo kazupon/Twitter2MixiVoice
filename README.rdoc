@@ -1,18 +1,43 @@
-= mixi_voice_bot
+= Twitter2MixiVoice
 
-Description goes here.
+This application is posted tweets of Twitter to MixiVoice.
 
-== Note on Patches/Pull Requests
- 
-* Fork the project.
-* Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but
-   bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
 
-== Copyright
+== FEATURES:
+
+* Post tweets of Twitter to MixiVoice.
+
+
+== SUPPORT:
+
+* e-mail address : kawakazu80@gmail.com
+* twitter id : kazu_pon
+
+
+== SYNOPSIS:
+
+The following options are required.
+
+* twitter id option : <em>--twitter_id</em> or <em>-t</em>
+* twitter password option : <em>--twitter_password</em> or <em>-T</em>
+* mixi email option : <em>--mixi_email</em> or <em>-m</em>
+* mixi password option : <em>--mixi_password</em> or <em>-M</em>
+
+Example:
+
+$ twitter_2_mixi_voice -t <em>twitter_id</em> -T <em>twitter_password</em> -m <em>user@hoge.com</em> -M <em>mixi_password</em>
+
+
+== REQUIREMENTS:
+
+* ruby 1.8.7
+* twitter4r 0.3.1
+* mechanize 0.9.3
+
+
+== INSTALL:
+
+
+== Copyright:
 
 Copyright (c) 2009 kazuya kawaguchi. See LICENSE for details.

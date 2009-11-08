@@ -1,0 +1,7 @@
+= ChangeLog
+
+== 2009-11-08 kawakazu80@gmail.com
+
+	* 0.1.0
+	first release.
+
